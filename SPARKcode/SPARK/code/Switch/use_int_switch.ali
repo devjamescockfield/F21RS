@@ -1,0 +1,63 @@
+V "GNAT Lib v2021"
+M P W=b
+A -gnatA
+A -gnat2020
+A -gnatc
+A -mtune=generic
+A -march=x86-64
+P NO FX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U use_int_switch%b	use_int_switch.adb	ef9c9264 OO SU
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.integer_io%s
+W switch%s		switch.adb		switch.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D switch.ads		20230926161220 33acd537 switch%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D text_io.ads		20210520051136 21b2c898 text_io%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+D use_int_switch.adb	20230926161220 fd828fcb use_int_switch%b
+G a e
+G c Z b b [use_int_switch standard 4 11 none]
+G r c none [use_int_switch standard 4 11 none] [int_switch switch 7 14 none]
+X 7 a-textio.ads
+262U14*New_Line 19|12s15 19s46 21s46
+463U14*Put 19|13s15 15s15 18s15 20s15
+X 8 a-tiinio.ads
+46k21*Integer_IO 108e27 19|6r41
+59U14 Get 19|14s21[6] 16s21[6]
+80U14 Put 19|19s21[6] 21s21[6]
+X 11 switch.ads
+4K9*Switch 9e11 19|3w15 17r7
+7U14*Int_Switch 19|17s14
+X 17 text_io.ads
+24K9*Text_IO=24:29 19|3w6 6r33 12r7 13r7 15r7 18r7 19r38 20r7 21r38
+X 19 use_int_switch.adb
+4U11*Use_Int_Switch 4b11 24l5 24t19
+6K12 Integer_INOUT[8|46] 14r7 16r7 19r7 21r7
+8i4 X_Value{integer} 14m25 17m25 17r25 19r25
+8i13 Y_Value{integer} 16m25 17m34 17r34 21r25
+

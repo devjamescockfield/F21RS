@@ -1,0 +1,15 @@
+
+pragma Spark_Mode (On);
+
+package Switch
+is
+
+   procedure Int_Switch(X, Y: in out Integer)
+   with Global   => null,
+     Depends  => (X => Y,
+                  Y => X), 
+     Pre => (X < Integer'Last),
+     Post => (X = Y'Old and Y = X'Old);
+
+end Switch;
+

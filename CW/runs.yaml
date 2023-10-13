@@ -1,0 +1,32 @@
+'2023-10-13T15:05:52.099000':
+  category: GNATprove
+  files:
+  - G:\Masters\F21RS\CW\gnatprove
+  label: Examine All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: analysis of data and information flow ...
+
+    warning: no bodies have been analyzed by GNATprove
+
+    enable analysis of a non-generic body using SPARK_Mode
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2023-10-13T15:05:52.099000'
+'2023-10-13T15:06:12.563000':
+  category: GNATprove
+  files:
+  - G:\Masters\F21RS\CW\gnatprove
+  label: Basic Prove All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    warning: no bodies have been analyzed by GNATprove
+
+    enable analysis of a non-generic body using SPARK_Mode
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2023-10-13T15:06:12.563000'

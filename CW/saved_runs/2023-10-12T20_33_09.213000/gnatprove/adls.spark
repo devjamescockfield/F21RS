@@ -1,0 +1,35 @@
+{
+  "spark": [
+    {
+      "name": "ADLS",
+      "sloc": [
+        {
+          "file": "adls.ads",
+          "line": 2
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "ADLS.Controller",
+      "sloc": [
+        {
+          "file": "adls.ads",
+          "line": 10
+        }
+      ],
+      "spark": "spec"
+    }
+  ],
+  "flow": [
+  ],
+  "assumptions": [
+  ],
+  "timings": {
+    "globals (advanced)": 1.50260003283620E-03,
+    "flow analysis": 1.03219994343817E-03,
+    "marking": 8.71000011102296E-05,
+    "properties (advanced)": 2.88999999611406E-05,
+    "globals (basic)": 9.09499998670071E-04
+  }
+}

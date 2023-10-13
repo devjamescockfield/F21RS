@@ -1,0 +1,30 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -gnatwa
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U doors%b		doors.adb		0f4de516 NE OO PK
+
+U doors%s		doors.ads		7c1d5e02 EB NE OO PK
+
+D doors.ads		20231011144344 7c1d5e02 doors%s
+D doors.adb		20231012144544 7350bb14 doors%b
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z s b [unlock doors 14 14 none]
+G c Z s b [lock doors 19 14 none]
+G c Z s b [locked doors 24 13 none]
+X 1 doors.ads
+7K9*Doors 29l5 29e10 2|2b14 22l5 22t10
+12b4*LockedState{boolean} 16r27 17r18 21r27 22r18 26r26 27r35 2|7m7 13m7
+. 19r14
+14U14*Unlock 2|4b14 8l8 8t14
+19U14*Lock 2|10b14 14l8 14t12
+24V13*Locked{boolean} 27r18 2|16b13 20l8 20t14
+

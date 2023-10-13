@@ -1,0 +1,7 @@
+project MyProject is
+   for Source_Dirs use (".");
+
+   package Compiler is
+      for Switches ("Ada") use ("-gnat2020"); 
+   end Compiler;
+end MyProject;

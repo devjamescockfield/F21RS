@@ -1,0 +1,74 @@
+V "GNAT Lib v2021"
+A -x
+A ada
+A -gnatA
+A -gnatwa
+A -gnatc
+P GP FX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U adls%b		adls.adb		893c53a4 OO PK IU
+W adls%s		adls.adb		adls.ali
+W console%s		console.adb		console.ali
+W doors%s		doors.adb		doors.ali
+W sensors%s		sensors.adb		sensors.ali
+
+U adls%s		adls.ads		f53ac78e EB OO PK IU
+
+D adls.ads		20231012192322 f53ac78e adls%s
+D adls.adb		20231012193302 86e41fe8 adls%b
+D console.ads		20231011144256 81373f29 console%s
+D doors.ads		20231011144344 7c1d5e02 doors%s
+D sensors.ads		20231011144502 f2f22d67 sensors%s
+D system.ads		20210520051134 2ffa5114 system%s
+G a Z
+X 1 adls.ads
+2K9*ADLS 12l5 12e9 2|2w31 3b14 45l5 45t9
+7i4*Auto_Mode_Cnt{integer}
+8b4*MovingState{boolean} 2|17m10 19m10 23r14 30r10
+10U14*Controller 2|5b14 43l8 43t18
+X 3 console.ads
+7K10*Console 2|2w15 9r10 10r10 12r10 23r30 30r26 37r10 38r13 40r13 3|45e12
+15U14*Enable_Indicator 2|40s21
+20U14*Disable_Indicator 2|38s21
+25V13*Indicator_Enabled{boolean} 2|37s18
+30U14*Enable_Auto_Mode 2|12s18
+35U14*Disable_Auto_Mode 2|10s18
+40V13*Auto_Mode_Enabled{boolean} 2|9s18 23s38 30s34
+X 4 doors.ads
+7K9*Doors 2|2w24 25r13 26r13 31r17 32r13 4|29e10
+14U14*Unlock 2|26s19
+19U14*Lock 2|32s19
+24V13*Locked{boolean} 2|25s19 31s23
+X 5 sensors.ads
+7K9*Sensors 2|2w6 16r10 18r13 18r50 5|37e12
+16I12*Sensor_Type{integer}
+32V13*Read_Sensor_Majority{16I12} 2|16s18 18s21 18s58
+
+QQ SPARKVERSION SPARK Community 2021 (20210519)
+GG EK_DIRECT_CALLS adls__controller 0
+GG EK_GLOBALS adls__controller local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 1 adls proper_proof_in 0 proper_input 1 adls__movingstate proper_output 1 adls__movingstate refined_proof_in 0 refined_input 1 adls__movingstate refined_output 1 adls__movingstate calls_proof 0 calls 0 calls_conditional 10 sensors__read_sensor_majority console__enable_indicator console__disable_indicator console__indicator_enabled console__enable_auto_mode console__disable_auto_mode console__auto_mode_enabled doors__unlock doors__lock doors__locked FALSE FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 adls__movingstate LOCKS 0
+GG EK_DIRECT_CALLS adls 0
+GG EK_GLOBALS adls local FALSE E_PACKAGE TRUE ORIGIN_FLOW 0 proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 initializes 0 refined_initializes 0 calls_proof 0 calls 0 calls_conditional 0 local_var 2 adls__auto_mode_cnt adls__movingstate FALSE FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_FLOW_SCOPE console__disable_indicator FALSE FALSE FALSE FALSE TRUE console VISIBLE_PART
+GG EK_FLOW_SCOPE sensors TRUE FALSE FALSE FALSE FALSE __standard
+GG EK_FLOW_SCOPE console__disable_auto_mode FALSE FALSE FALSE FALSE TRUE console VISIBLE_PART
+GG EK_FLOW_SCOPE doors TRUE FALSE FALSE FALSE FALSE __standard
+GG EK_FLOW_SCOPE doors__unlock FALSE FALSE FALSE FALSE TRUE doors VISIBLE_PART
+GG EK_FLOW_SCOPE sensors__read_sensor FALSE FALSE FALSE FALSE TRUE sensors VISIBLE_PART
+GG EK_FLOW_SCOPE console__indicator_enabled FALSE FALSE FALSE FALSE TRUE console VISIBLE_PART
+GG EK_FLOW_SCOPE console__auto_mode_enabled FALSE FALSE FALSE FALSE TRUE console VISIBLE_PART
+GG EK_FLOW_SCOPE console TRUE FALSE FALSE FALSE FALSE __standard
+GG EK_FLOW_SCOPE adls TRUE FALSE FALSE FALSE FALSE __standard
+GG EK_FLOW_SCOPE doors__lock FALSE FALSE FALSE FALSE TRUE doors VISIBLE_PART
+GG EK_FLOW_SCOPE console__enable_indicator FALSE FALSE FALSE FALSE TRUE console VISIBLE_PART
+GG EK_FLOW_SCOPE adls__controller FALSE FALSE FALSE FALSE TRUE adls VISIBLE_PART
+GG EK_FLOW_SCOPE sensors__write_sensors FALSE FALSE FALSE FALSE TRUE sensors VISIBLE_PART
+GG EK_FLOW_SCOPE console__enable_auto_mode FALSE FALSE FALSE FALSE TRUE console VISIBLE_PART
+GG EK_FLOW_SCOPE sensors__read_sensor_majority FALSE FALSE FALSE FALSE TRUE sensors VISIBLE_PART
+GG EK_FLOW_SCOPE doors__locked FALSE FALSE FALSE FALSE TRUE doors VISIBLE_PART
+GG EK_END_MARKER

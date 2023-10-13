@@ -1,0 +1,3 @@
+adls.adb:23:09: error: missing operand
+adls.adb:31:12: error: missing operand
+adls.adb:43:03: error: missing "end if;" for "if" at line 16

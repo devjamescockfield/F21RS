@@ -1,0 +1,85 @@
+{
+  "spark": [
+    {
+      "name": "Console",
+      "sloc": [
+        {
+          "file": "console.ads",
+          "line": 7
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "Console.Enable_Indicator",
+      "sloc": [
+        {
+          "file": "console.ads",
+          "line": 15
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "Console.Disable_Indicator",
+      "sloc": [
+        {
+          "file": "console.ads",
+          "line": 20
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "Console.Indicator_Enabled",
+      "sloc": [
+        {
+          "file": "console.ads",
+          "line": 25
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "Console.Enable_Auto_Mode",
+      "sloc": [
+        {
+          "file": "console.ads",
+          "line": 30
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "Console.Disable_Auto_Mode",
+      "sloc": [
+        {
+          "file": "console.ads",
+          "line": 35
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "Console.Auto_Mode_Enabled",
+      "sloc": [
+        {
+          "file": "console.ads",
+          "line": 40
+        }
+      ],
+      "spark": "spec"
+    }
+  ],
+  "flow": [
+  ],
+  "assumptions": [
+  ],
+  "timings": {
+    "globals (advanced)": 2.08299999940209E-04,
+    "flow analysis": 2.63499998254701E-04,
+    "marking": 2.16000007640105E-05,
+    "properties (advanced)": 9.10000017029233E-06,
+    "globals (basic)": 1.91099999938160E-04
+  }
+}

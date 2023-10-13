@@ -1,0 +1,2 @@
+adls.adb:7:07: error: "PUT" is undefined
+adls.adb:7:07: error: possible missing "with Ada.Text_IO; use Ada.Text_IO"

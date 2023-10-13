@@ -1,0 +1,27 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -gnat2020
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U switch%b		switch.adb		2a651fe1 NE OO PK
+
+U switch%s		switch.ads		33acd537 EE NE OO PK
+
+D switch.ads		20230926161220 33acd537 switch%s
+D switch.adb		20230926161220 19c9cad6 switch%b
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z s b [int_switch switch 7 14 none]
+X 1 switch.ads
+4K9*Switch 9l5 9e11 2|3b14 16l5 16t11
+7U14*Int_Switch 7=25 7=28 2|6b14 15l8 15t18
+7i25 X{integer} 2|6b25 12r10 13m7
+7i28 Y{integer} 2|6b28 13r10 14m7
+X 2 switch.adb
+9i7 T{integer} 12m7 14r10
+

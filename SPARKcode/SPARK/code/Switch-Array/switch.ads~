@@ -1,0 +1,16 @@
+
+pragma Spark_Mode (On);
+
+package Switch
+is
+  type Pair is array (1..2) of Integer;
+
+   procedure Int_Switch(P: in out Pair)
+     with 
+--     Global   => null,
+     Depends  =>  (P => P),
+     Pre => true,
+     Post => (P = (P'Old with delta 1 => P'Old(2), 2 => P'Old(1)));
+
+end Switch;
+

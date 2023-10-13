@@ -1,0 +1,92 @@
+V "GNAT Lib v2021"
+M P W=b
+A -x
+A ada
+A -gnatA
+A -gnatwa
+A -gnatc
+P GP FX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U test_adls%b		test_adls.adb		d64a4822 OO SU
+W adls%s		adls.adb		adls.ali
+W console%s		console.adb		console.ali
+W doors%s		doors.adb		doors.ali
+W env%s			env.adb			env.ali
+W log%s			log.adb			log.ali
+W sensors%s		sensors.adb		sensors.ali
+Z system%s		system.ads		system.ali
+
+D adls.ads		20231012152916 e220676e adls%s
+D console.ads		20231011144256 81373f29 console%s
+D doors.ads		20231011144344 7c1d5e02 doors%s
+D env.ads		20231011144410 49709549 env%s
+D log.ads		20231011144448 a17f7763 log%s
+D sensors.ads		20231011144502 f2f22d67 sensors%s
+D system.ads		20210520051134 2ffa5114 system%s
+D test_adls.adb		20231011144518 d3bd812a test_adls%b
+G a Z
+X 1 adls.ads
+2K9*ADLS 11e9 8|17w16 27r7
+9U14*Controller 8|27s12
+X 2 console.ads
+7K10*Console 45e12 8|17w31
+X 3 doors.ads
+7K9*Doors 29e10 8|17w40
+X 4 env.ads
+18K9*Env 30e8 8|17w6 21r4 24r17 25r7 30r4
+22U13*Update 8|25s11
+24V12*At_End{boolean} 8|24s21
+26U13*Open_File 8|21s8
+28U13*Close_File 8|30s8
+X 5 log.ads
+19K9*Log 27e8 8|17w11 22r4 26r7 28r7 31r4
+21U13*Update 8|26s11 28s11
+23U13*Open_File 8|22s8
+25U13*Close_File 8|31s8
+X 6 sensors.ads
+7K9*Sensors 37e12 8|17w22 18r10
+16I12*Sensor_Type{integer} 8|18r18
+X 8 test_adls.adb
+19U11*Test_ADLS 19b11 32l5 32t14
+
+QQ SPARKVERSION SPARK Community 2021 (20210519)
+GG EK_DIRECT_CALLS test_adls 0
+GG EK_GLOBALS test_adls local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 0 proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 8 env__update env__at_end env__open_file env__close_file log__update log__open_file log__close_file adls__controller FALSE FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_FLOW_SCOPE console__auto_mode_enabled FALSE FALSE FALSE FALSE TRUE console VISIBLE_PART
+GG EK_FLOW_SCOPE system__Ogt FALSE FALSE FALSE FALSE TRUE system VISIBLE_PART
+GG EK_FLOW_SCOPE console TRUE FALSE FALSE FALSE FALSE __standard
+GG EK_FLOW_SCOPE env__update FALSE FALSE FALSE FALSE TRUE env VISIBLE_PART
+GG EK_FLOW_SCOPE doors__lock FALSE FALSE FALSE FALSE TRUE doors VISIBLE_PART
+GG EK_FLOW_SCOPE adls TRUE FALSE FALSE FALSE FALSE __standard
+GG EK_FLOW_SCOPE system__Oge FALSE FALSE FALSE FALSE TRUE system VISIBLE_PART
+GG EK_FLOW_SCOPE env__at_end FALSE FALSE FALSE FALSE TRUE env VISIBLE_PART
+GG EK_FLOW_SCOPE env__open_file FALSE FALSE FALSE FALSE TRUE env VISIBLE_PART
+GG EK_FLOW_SCOPE console__enable_indicator FALSE FALSE FALSE FALSE TRUE console VISIBLE_PART
+GG EK_FLOW_SCOPE adls__controller FALSE FALSE FALSE FALSE TRUE adls VISIBLE_PART
+GG EK_FLOW_SCOPE env__close_file FALSE FALSE FALSE FALSE TRUE env VISIBLE_PART
+GG EK_FLOW_SCOPE sensors__write_sensors FALSE FALSE FALSE FALSE TRUE sensors VISIBLE_PART
+GG EK_FLOW_SCOPE system__Oeq FALSE FALSE FALSE FALSE TRUE system VISIBLE_PART
+GG EK_FLOW_SCOPE console__enable_auto_mode FALSE FALSE FALSE FALSE TRUE console VISIBLE_PART
+GG EK_FLOW_SCOPE sensors__read_sensor_majority FALSE FALSE FALSE FALSE TRUE sensors VISIBLE_PART
+GG EK_FLOW_SCOPE doors__locked FALSE FALSE FALSE FALSE TRUE doors VISIBLE_PART
+GG EK_FLOW_SCOPE console__disable_indicator FALSE FALSE FALSE FALSE TRUE console VISIBLE_PART
+GG EK_FLOW_SCOPE sensors TRUE FALSE FALSE FALSE FALSE __standard
+GG EK_FLOW_SCOPE log TRUE FALSE FALSE FALSE FALSE __standard
+GG EK_FLOW_SCOPE system__Olt FALSE FALSE FALSE FALSE TRUE system VISIBLE_PART
+GG EK_FLOW_SCOPE console__disable_auto_mode FALSE FALSE FALSE FALSE TRUE console VISIBLE_PART
+GG EK_FLOW_SCOPE doors TRUE FALSE FALSE FALSE FALSE __standard
+GG EK_FLOW_SCOPE log__update FALSE FALSE FALSE FALSE TRUE log VISIBLE_PART
+GG EK_FLOW_SCOPE log__open_file FALSE FALSE FALSE FALSE TRUE log VISIBLE_PART
+GG EK_FLOW_SCOPE log__close_file FALSE FALSE FALSE FALSE TRUE log VISIBLE_PART
+GG EK_FLOW_SCOPE system TRUE FALSE FALSE FALSE FALSE __standard
+GG EK_FLOW_SCOPE doors__unlock FALSE FALSE FALSE FALSE TRUE doors VISIBLE_PART
+GG EK_FLOW_SCOPE test_adls FALSE FALSE FALSE FALSE FALSE __standard
+GG EK_FLOW_SCOPE system__Ole FALSE FALSE FALSE FALSE TRUE system VISIBLE_PART
+GG EK_FLOW_SCOPE sensors__read_sensor FALSE FALSE FALSE FALSE TRUE sensors VISIBLE_PART
+GG EK_FLOW_SCOPE console__indicator_enabled FALSE FALSE FALSE FALSE TRUE console VISIBLE_PART
+GG EK_FLOW_SCOPE env TRUE FALSE FALSE FALSE FALSE __standard
+GG EK_END_MARKER

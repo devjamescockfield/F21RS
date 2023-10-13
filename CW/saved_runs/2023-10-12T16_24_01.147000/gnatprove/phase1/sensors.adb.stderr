@@ -1,0 +1,2 @@
+sensors.adb:20:07: error: missing "begin" for function "Read_Sensor_Majority" at line 18
+sensors.adb:36:03: error: missing "end;" for "begin" at line 22

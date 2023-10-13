@@ -1,0 +1,8 @@
+20231012152906
+-c
+-x
+ada
+-gnatA
+-gnatwa
+-gnatc
+-gnates=D:\Masters\F21RS\CW\gnatprove\aa176a6a.tmp

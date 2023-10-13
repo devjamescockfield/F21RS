@@ -1,0 +1,4 @@
+test_adls.adb:17:31: warning: unit "Console" is not referenced [-gnatwu]
+test_adls.adb:17:40: warning: unit "Doors" is not referenced [-gnatwu]
+test_adls.adb:18:01: warning: use clause for type "Sensor_Type" defined at sensors.ads:16 has no effect [-gnatwu]
+test_adls.adb:18:17: warning: "Integer" is already use-visible inside package "Standard" [enabled by default]

@@ -1,0 +1,3 @@
+adls.adb:8:07: error: "Put_Line" is not visible
+adls.adb:8:07: error: non-visible declaration at a-textio.ads:506
+adls.adb:8:07: error: non-visible declaration at a-textio.ads:496

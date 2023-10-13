@@ -1,0 +1,2 @@
+test_adls.adb:27:11: error: "Controller" not declared in "ADLS"
+test_adls.adb:27:12: error: possible misspelling of "Conttroller"

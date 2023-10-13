@@ -1,0 +1,55 @@
+{
+  "spark": [
+    {
+      "name": "Doors",
+      "sloc": [
+        {
+          "file": "doors.ads",
+          "line": 7
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "Doors.Unlock",
+      "sloc": [
+        {
+          "file": "doors.ads",
+          "line": 14
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "Doors.Lock",
+      "sloc": [
+        {
+          "file": "doors.ads",
+          "line": 19
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "Doors.Locked",
+      "sloc": [
+        {
+          "file": "doors.ads",
+          "line": 24
+        }
+      ],
+      "spark": "spec"
+    }
+  ],
+  "flow": [
+  ],
+  "assumptions": [
+  ],
+  "timings": {
+    "globals (advanced)": 9.03700012713671E-04,
+    "flow analysis": 1.39109999872744E-03,
+    "marking": 1.57699992996641E-04,
+    "properties (advanced)": 4.80000016978011E-05,
+    "globals (basic)": 7.13700021151453E-04
+  }
+}

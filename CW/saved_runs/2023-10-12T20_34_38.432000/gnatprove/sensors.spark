@@ -1,0 +1,55 @@
+{
+  "spark": [
+    {
+      "name": "Sensors",
+      "sloc": [
+        {
+          "file": "sensors.ads",
+          "line": 7
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "Sensors.Write_Sensors",
+      "sloc": [
+        {
+          "file": "sensors.ads",
+          "line": 22
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "Sensors.Read_Sensor",
+      "sloc": [
+        {
+          "file": "sensors.ads",
+          "line": 27
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "Sensors.Read_Sensor_Majority",
+      "sloc": [
+        {
+          "file": "sensors.ads",
+          "line": 32
+        }
+      ],
+      "spark": "spec"
+    }
+  ],
+  "flow": [
+  ],
+  "assumptions": [
+  ],
+  "timings": {
+    "globals (advanced)": 9.98800038360059E-04,
+    "flow analysis": 1.99389993213117E-03,
+    "marking": 1.83399999514222E-04,
+    "properties (advanced)": 7.40000032237731E-05,
+    "globals (basic)": 7.52900028601289E-04
+  }
+}

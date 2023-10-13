@@ -1,0 +1,43 @@
+V "GNAT Lib v2021"
+A -x
+A ada
+A -gnatA
+A -gnatwa
+A -gnatc
+P GP FX
+
+RN
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U doors%b		doors.adb		0f4de516 OO PK
+
+U doors%s		doors.ads		7c1d5e02 EB OO PK
+
+D doors.ads		20231011144344 7c1d5e02 doors%s
+D doors.adb		20231012144544 7350bb14 doors%b
+D system.ads		20210520051134 2ffa5114 system%s
+G a Z
+X 1 doors.ads
+7K9*Doors 29l5 29e10 2|2b14 22l5 22t10
+12b4*LockedState{boolean} 16r27 17r18 21r27 22r18 26r26 27r35 2|7m7 13m7
+. 19r14
+14U14*Unlock 2|4b14 8l8 8t14
+19U14*Lock 2|10b14 14l8 14t12
+24V13*Locked{boolean} 27r18 2|16b13 20l8 20t14
+
+QQ SPARKVERSION SPARK Community 2021 (20210519)
+GG EK_DIRECT_CALLS doors__unlock 0
+GG EK_GLOBALS doors__unlock local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 1 doors proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 doors__lockedstate LOCKS 0
+GG EK_DIRECT_CALLS doors__lock 0
+GG EK_GLOBALS doors__lock local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 1 doors proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 doors__lockedstate LOCKS 0
+GG EK_DIRECT_CALLS doors__locked 0
+GG EK_GLOBALS doors__locked local FALSE E_FUNCTION FALSE ORIGIN_FLOW 1 doors proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 doors__lockedstate LOCKS 0
+GG EK_DIRECT_CALLS doors 0
+GG EK_GLOBALS doors local FALSE E_PACKAGE TRUE ORIGIN_FLOW 0 proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 initializes 0 refined_initializes 0 calls_proof 0 calls 0 calls_conditional 0 local_var 1 doors__lockedstate FALSE FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_FLOW_SCOPE doors__locked FALSE FALSE FALSE FALSE TRUE doors VISIBLE_PART
+GG EK_FLOW_SCOPE doors TRUE FALSE FALSE FALSE FALSE __standard
+GG EK_FLOW_SCOPE doors__unlock FALSE FALSE FALSE FALSE TRUE doors VISIBLE_PART
+GG EK_FLOW_SCOPE doors__lock FALSE FALSE FALSE FALSE TRUE doors VISIBLE_PART
+GG EK_END_MARKER

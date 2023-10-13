@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Locations>
+  <Project>
+    <vfs_file>E:\Masters\F21RS\SPARKcode\SPARK\code\Switch\myproject.gpr</vfs_file>
+    <file_marker column=" 1" line=" 18" >
+      <vfs_project>E:\Masters\F21RS\SPARKcode\SPARK\code\Switch\myproject.gpr</vfs_project>
+      <vfs_file>E:\Masters\F21RS\SPARKcode\SPARK\code\Switch\switch.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 11" >
+      <vfs_project>E:\Masters\F21RS\SPARKcode\SPARK\code\Switch\myproject.gpr</vfs_project>
+      <vfs_file>E:\Masters\F21RS\SPARKcode\SPARK\code\Switch\switch.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Masters\F21RS\SPARKcode\SPARK\code\Switch\myproject.gpr</vfs_project>
+      <vfs_file>E:\Masters\F21RS\SPARKcode\SPARK\code\Switch\use_int_switch.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Masters\F21RS\SPARKcode\SPARK\code\Switch\myproject.gpr</vfs_project>
+      <vfs_file>E:\Masters\F21RS\SPARKcode\SPARK\code\Switch\switch.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\Masters\F21RS\SPARKcode\SPARK\code\Switch\myproject.gpr</vfs_project>
+      <vfs_file>E:\Masters\F21RS\SPARKcode\SPARK\code\Switch\switch.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>E:\Masters\F21RS\SPARKcode\SPARK\code\Switch\myproject.gpr</vfs_project>
+      <vfs_file>E:\Masters\F21RS\SPARKcode\SPARK\code\Switch\use_int_switch.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

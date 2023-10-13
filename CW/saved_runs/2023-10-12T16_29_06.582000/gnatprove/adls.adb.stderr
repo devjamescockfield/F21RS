@@ -1,0 +1,2 @@
+adls.ads:2:06: warning: no entities of "Text_IO" are referenced in spec [-gnatwu]
+adls.ads:2:06: warning: with clause might be moved to body [-gnatwu]

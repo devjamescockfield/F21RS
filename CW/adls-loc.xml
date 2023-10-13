@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project >
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>G:\Masters\F21RS\CW\adls.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>G:\Masters\F21RS\CW\console.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>G:\Masters\F21RS\CW\doors.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>G:\Masters\F21RS\CW\doors.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>G:\Masters\F21RS\CW\env.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>G:\Masters\F21RS\CW\env.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>G:\Masters\F21RS\CW\env.dat</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>G:\Masters\F21RS\CW\gpsauto.cgpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>G:\Masters\F21RS\CW\log.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>G:\Masters\F21RS\CW\log.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>G:\Masters\F21RS\CW\sensors.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>G:\Masters\F21RS\CW\test_adls.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>G:\Masters\F21RS\CW\adls.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>G:\Masters\F21RS\CW\adls.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>G:\Masters\F21RS\CW\console.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>G:\Masters\F21RS\CW\sensors.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>G:\Masters\F21RS\CW\adls.gpr</vfs_project>
+      <vfs_file>G:\Masters\F21RS\CW\console.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>G:\Masters\F21RS\CW\adls.gpr</vfs_project>
+      <vfs_file>G:\Masters\F21RS\CW\console.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>G:\Masters\F21RS\CW\adls.gpr</vfs_project>
+      <vfs_file>G:\Masters\F21RS\CW\console.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>G:\Masters\F21RS\CW\adls.gpr</vfs_project>
+      <vfs_file>G:\Masters\F21RS\CW\adls.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>G:\Masters\F21RS\CW\adls.gpr</vfs_project>
+      <vfs_file>G:\Masters\F21RS\CW\adls.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

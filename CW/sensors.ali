@@ -1,0 +1,44 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -gnatwa
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U sensors%b		sensors.adb		d4ceffee NE OO PK
+
+U sensors%s		sensors.ads		f2f22d67 EB NE OO PK
+
+D sensors.ads		20231011144502 f2f22d67 sensors%s
+D sensors.adb		20231012152536 263cd289 sensors%b
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z s s [Tsensors_typeBIP sensors 18 4 none]
+G c Z s b [write_sensors sensors 22 14 none]
+G c Z s b [read_sensor sensors 27 13 none]
+G c Z s b [read_sensor_majority sensors 32 13 none]
+X 1 sensors.ads
+7K9*Sensors 37l5 37e12 2|2b14 40l5 40t12
+13i4*Init_Value{integer}
+14i4*Undef_Value{integer}
+16I12*Sensor_Type{integer} 18r54 22r58 27r68 32r41 2|4r59 12r69 18r41
+17I12*Sensor_Index_Type{integer} 18r32 27r42 2|12r43
+18A9*Sensors_Type(16I12)<integer> 20r17
+20a4*SensorState{18A9} 24r27 25r18 25r34 29r27 30r41 34r27 35r49 2|7m7 8m7
+. 9m7 15r14 23r24 26r13 31r33
+22U14*Write_Sensors 22>28 22>37 22>46 2|4b14 10l8 10t21
+22i28 Value_1{16I12} 25r47 2|4b29 7r25
+22i37 Value_2{16I12} 25r56 2|4b38 8r25
+22i46 Value_3{16I12} 25r65 2|4b47 9r25
+27V13*Read_Sensor{16I12} 27>25 30r18 2|12b13 16l8 16t19
+27i25 Sensor_Index{17I12} 30r54 2|12b26 15r26
+32V13*Read_Sensor_Majority{16I12} 35r18 2|18b13 38l8 38t28
+X 2 sensors.adb
+20i7 MajorityValue{integer} 23m7 26r30 30r16 31m16 37r14
+21i7 MajorityCount{integer} 24m7 27m13 27r30 29m13 29r30 32m16
+25i11 I{integer} 26r25 31r45
+
