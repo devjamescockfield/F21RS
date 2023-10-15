@@ -35,24 +35,3 @@ is
      Depends => (Read_Sensor_Majority'Result => SensorState);
    
 end Sensors;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

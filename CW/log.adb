@@ -71,4 +71,3 @@ package body Log is
    end Close_File;
 
 end Log;
-

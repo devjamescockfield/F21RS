@@ -43,6 +43,3 @@ is
        Depends => (Auto_Mode_Enabled'Result => AutoState);
    
 end Console;
-
-
-

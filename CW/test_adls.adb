@@ -29,4 +29,3 @@ begin
    Env.Close_File;
    Log.Close_File;
 end Test_ADLS;
-

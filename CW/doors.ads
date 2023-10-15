@@ -27,6 +27,3 @@ is
      Depends => (Locked'Result => LockedState);
 
 end Doors;
-
-
-

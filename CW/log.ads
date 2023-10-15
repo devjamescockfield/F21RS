@@ -25,6 +25,3 @@ package Log is
   procedure Close_File;
 
 end Log;
-
-
-
