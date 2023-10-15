@@ -1,0 +1,6 @@
+console.ads:33:30: error: invalid operand types for operator "/="
+console.ads:33:30: error: left operand has type "Standard.Boolean"
+console.ads:33:30: error: right operand has an access type
+console.ads:53:25: error: invalid operand types for operator "/="
+console.ads:53:25: error: left operand has type "Standard.Boolean"
+console.ads:53:25: error: right operand has an access type

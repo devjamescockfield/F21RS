@@ -1,7 +1,683 @@
-'2023-10-13T15:05:52.099000':
+'2023-10-14T13:35:41.862000':
   category: GNATprove
   files:
-  - G:\Masters\F21RS\CW\gnatprove
+  - E:\Git\Masters\F21RS\CW\gnatprove
+  label: Examine All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    console.ads:33:30: error: invalid operand types for operator "/="
+
+    console.ads:33:30: error: left operand has type "Standard.Boolean"
+
+    console.ads:33:30: error: right operand has an access type
+
+    console.ads:53:25: error: invalid operand types for operator "/="
+
+    console.ads:53:25: error: left operand has type "Standard.Boolean"
+
+    console.ads:53:25: error: right operand has an access type
+
+    console.ads:33:30: error: invalid operand types for operator "/="
+
+    console.ads:33:30: error: left operand has type "Standard.Boolean"
+
+    console.ads:33:30: error: right operand has an access type
+
+    console.ads:53:25: error: invalid operand types for operator "/="
+
+    console.ads:53:25: error: left operand has type "Standard.Boolean"
+
+    console.ads:53:25: error: right operand has an access type
+
+    console.ads:33:30: error: invalid operand types for operator "/="
+
+    console.ads:33:30: error: left operand has type "Standard.Boolean"
+
+    console.ads:33:30: error: right operand has an access type
+
+    console.ads:53:25: error: invalid operand types for operator "/="
+
+    console.ads:53:25: error: left operand has type "Standard.Boolean"
+
+    console.ads:53:25: error: right operand has an access type
+
+    console.ads:33:30: error: invalid operand types for operator "/="
+
+    console.ads:33:30: error: left operand has type "Standard.Boolean"
+
+    console.ads:33:30: error: right operand has an access type
+
+    console.ads:53:25: error: invalid operand types for operator "/="
+
+    console.ads:53:25: error: left operand has type "Standard.Boolean"
+
+    console.ads:53:25: error: right operand has an access type
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2023-10-14T13:35:41.862000'
+'2023-10-14T13:36:17.181000':
+  category: GNATprove
+  files:
+  - E:\Git\Masters\F21RS\CW\gnatprove
+  label: Examine All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    console.ads:33:33: error: missing "in"
+
+    console.ads:53:28: error: missing "in"
+
+    console.ads:33:33: error: missing "in"
+
+    console.ads:53:28: error: missing "in"
+
+    console.ads:33:33: error: missing "in"
+
+    console.ads:53:28: error: missing "in"
+
+    console.ads:33:33: error: missing "in"
+
+    console.ads:53:28: error: missing "in"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2023-10-14T13:36:17.181000'
+'2023-10-14T13:38:55.471000':
+  category: GNATprove
+  files:
+  - E:\Git\Masters\F21RS\CW\gnatprove
+  label: Examine All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    console.adb:2:14: error: missing body for "Indicator_Enabled" declared at console.ads:29
+
+    console.adb:2:14: error: missing body for "Auto_Mode_Enabled" declared at console.ads:49
+
+    console.ads:29:38: error: subtype mark required in this context
+
+    console.ads:29:38: error: found "IndicatorState" declared at line 12
+
+    console.ads:31:28: error: global item cannot reference parameter of subprogram
+    "Indicator_Enabled"
+
+    console.ads:49:38: error: subtype mark required in this context
+
+    console.ads:49:38: error: found "AutoState" declared at line 13
+
+    console.ads:51:26: error: global item cannot reference parameter of subprogram
+    "Auto_Mode_Enabled"
+
+    log.adb:46:17: error: missing argument for parameter "State" in call to "Indicator_Enabled"
+    declared at console.ads:29
+
+    log.adb:51:17: error: missing argument for parameter "State" in call to "Auto_Mode_Enabled"
+    declared at console.ads:49
+
+    console.ads:29:38: error: subtype mark required in this context
+
+    console.ads:29:38: error: found "IndicatorState" declared at line 12
+
+    console.ads:31:28: error: global item cannot reference parameter of subprogram
+    "Indicator_Enabled"
+
+    console.ads:49:38: error: subtype mark required in this context
+
+    console.ads:49:38: error: found "AutoState" declared at line 13
+
+    console.ads:51:26: error: global item cannot reference parameter of subprogram
+    "Auto_Mode_Enabled"
+
+    console.ads:29:38: error: subtype mark required in this context
+
+    console.ads:29:38: error: found "IndicatorState" declared at line 12
+
+    console.ads:31:28: error: global item cannot reference parameter of subprogram
+    "Indicator_Enabled"
+
+    console.ads:49:38: error: subtype mark required in this context
+
+    console.ads:49:38: error: found "AutoState" declared at line 13
+
+    console.ads:51:26: error: global item cannot reference parameter of subprogram
+    "Auto_Mode_Enabled"
+
+    adls.adb:9:17: error: missing argument for parameter "State" in call to "AUTO_MODE_ENABLED"
+    declared at console.ads:49
+
+    adls.adb:23:37: error: missing argument for parameter "State" in call to "AUTO_MODE_ENABLED"
+    declared at console.ads:49
+
+    adls.adb:30:33: error: missing argument for parameter "State" in call to "AUTO_MODE_ENABLED"
+    declared at console.ads:49
+
+    adls.adb:37:17: error: missing argument for parameter "State" in call to "INDICATOR_ENABLED"
+    declared at console.ads:29
+
+    console.ads:29:38: error: subtype mark required in this context
+
+    console.ads:29:38: error: found "IndicatorState" declared at line 12
+
+    console.ads:31:28: error: global item cannot reference parameter of subprogram
+    "Indicator_Enabled"
+
+    console.ads:49:38: error: subtype mark required in this context
+
+    console.ads:49:38: error: found "AutoState" declared at line 13
+
+    console.ads:51:26: error: global item cannot reference parameter of subprogram
+    "Auto_Mode_Enabled"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2023-10-14T13:38:55.471000'
+'2023-10-14T13:39:32.574000':
+  category: GNATprove
+  files:
+  - E:\Git\Masters\F21RS\CW\gnatprove
+  label: Examine All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    console.ads:33:30: error: invalid operand types for operator "/="
+
+    console.ads:33:30: error: left operand has type "Standard.Boolean"
+
+    console.ads:33:30: error: right operand has an access type
+
+    console.ads:53:25: error: invalid operand types for operator "/="
+
+    console.ads:53:25: error: left operand has type "Standard.Boolean"
+
+    console.ads:53:25: error: right operand has an access type
+
+    console.ads:33:30: error: invalid operand types for operator "/="
+
+    console.ads:33:30: error: left operand has type "Standard.Boolean"
+
+    console.ads:33:30: error: right operand has an access type
+
+    console.ads:53:25: error: invalid operand types for operator "/="
+
+    console.ads:53:25: error: left operand has type "Standard.Boolean"
+
+    console.ads:53:25: error: right operand has an access type
+
+    console.ads:33:30: error: invalid operand types for operator "/="
+
+    console.ads:33:30: error: left operand has type "Standard.Boolean"
+
+    console.ads:33:30: error: right operand has an access type
+
+    console.ads:53:25: error: invalid operand types for operator "/="
+
+    console.ads:53:25: error: left operand has type "Standard.Boolean"
+
+    console.ads:53:25: error: right operand has an access type
+
+    console.ads:33:30: error: invalid operand types for operator "/="
+
+    console.ads:33:30: error: left operand has type "Standard.Boolean"
+
+    console.ads:33:30: error: right operand has an access type
+
+    console.ads:53:25: error: invalid operand types for operator "/="
+
+    console.ads:53:25: error: left operand has type "Standard.Boolean"
+
+    console.ads:53:25: error: right operand has an access type
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2023-10-14T13:39:32.574000'
+'2023-10-14T13:42:23.860000':
+  category: GNATprove
+  files:
+  - E:\Git\Masters\F21RS\CW\gnatprove
+  label: Examine All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    console.ads:33:33: error: prefix of "First" attribute must be a type
+
+    console.ads:33:76: error: prefix of "Last" attribute must be a type
+
+    console.ads:53:28: error: prefix of "First" attribute must be a type
+
+    console.ads:53:61: error: prefix of "Last" attribute must be a type
+
+    console.ads:33:33: error: prefix of "First" attribute must be a type
+
+    console.ads:33:76: error: prefix of "Last" attribute must be a type
+
+    console.ads:53:28: error: prefix of "First" attribute must be a type
+
+    console.ads:53:61: error: prefix of "Last" attribute must be a type
+
+    console.ads:33:33: error: prefix of "First" attribute must be a type
+
+    console.ads:33:76: error: prefix of "Last" attribute must be a type
+
+    console.ads:53:28: error: prefix of "First" attribute must be a type
+
+    console.ads:53:61: error: prefix of "Last" attribute must be a type
+
+    console.ads:33:33: error: prefix of "First" attribute must be a type
+
+    console.ads:33:76: error: prefix of "Last" attribute must be a type
+
+    console.ads:53:28: error: prefix of "First" attribute must be a type
+
+    console.ads:53:61: error: prefix of "Last" attribute must be a type
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2023-10-14T13:42:23.860000'
+'2023-10-14T13:43:05.157000':
+  category: GNATprove
+  files:
+  - E:\Git\Masters\F21RS\CW\gnatprove
+  label: Examine All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    console.ads:12:03: error: missing "type"
+
+    console.ads:13:03: error: missing "type"
+
+    console.ads:12:03: error: missing "type"
+
+    console.ads:13:03: error: missing "type"
+
+    console.ads:12:03: error: missing "type"
+
+    console.ads:13:03: error: missing "type"
+
+    console.ads:12:03: error: missing "type"
+
+    console.ads:13:03: error: missing "type"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2023-10-14T13:43:05.157000'
+'2023-10-14T13:43:21.114000':
+  category: GNATprove
+  files:
+  - E:\Git\Masters\F21RS\CW\gnatprove
+  label: Examine All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    console.ads:12:28: error: "is" should be ":="
+
+    console.ads:12:31: error: expected type "Standard.Boolean"
+
+    console.ads:12:31: error: found a composite type
+
+    console.ads:13:23: error: "is" should be ":="
+
+    console.ads:13:26: error: expected type "Standard.Boolean"
+
+    console.ads:13:26: error: found a composite type
+
+    console.ads:33:33: error: prefix of "First" attribute must be a type
+
+    console.ads:33:76: error: prefix of "Last" attribute must be a type
+
+    console.ads:53:28: error: prefix of "First" attribute must be a type
+
+    console.ads:53:61: error: prefix of "Last" attribute must be a type
+
+    console.ads:12:28: error: "is" should be ":="
+
+    console.ads:12:31: error: expected type "Standard.Boolean"
+
+    console.ads:12:31: error: found a composite type
+
+    console.ads:13:23: error: "is" should be ":="
+
+    console.ads:13:26: error: expected type "Standard.Boolean"
+
+    console.ads:13:26: error: found a composite type
+
+    console.ads:33:33: error: prefix of "First" attribute must be a type
+
+    console.ads:33:76: error: prefix of "Last" attribute must be a type
+
+    console.ads:53:28: error: prefix of "First" attribute must be a type
+
+    console.ads:53:61: error: prefix of "Last" attribute must be a type
+
+    console.ads:12:28: error: "is" should be ":="
+
+    console.ads:12:31: error: expected type "Standard.Boolean"
+
+    console.ads:12:31: error: found a composite type
+
+    console.ads:13:23: error: "is" should be ":="
+
+    console.ads:13:26: error: expected type "Standard.Boolean"
+
+    console.ads:13:26: error: found a composite type
+
+    console.ads:33:33: error: prefix of "First" attribute must be a type
+
+    console.ads:33:76: error: prefix of "Last" attribute must be a type
+
+    console.ads:53:28: error: prefix of "First" attribute must be a type
+
+    console.ads:53:61: error: prefix of "Last" attribute must be a type
+
+    console.ads:12:28: error: "is" should be ":="
+
+    console.ads:12:31: error: expected type "Standard.Boolean"
+
+    console.ads:12:31: error: found a composite type
+
+    console.ads:13:23: error: "is" should be ":="
+
+    console.ads:13:26: error: expected type "Standard.Boolean"
+
+    console.ads:13:26: error: found a composite type
+
+    console.ads:33:33: error: prefix of "First" attribute must be a type
+
+    console.ads:33:76: error: prefix of "Last" attribute must be a type
+
+    console.ads:53:28: error: prefix of "First" attribute must be a type
+
+    console.ads:53:61: error: prefix of "Last" attribute must be a type
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2023-10-14T13:43:21.114000'
+'2023-10-14T13:44:26.281000':
+  category: GNATprove
+  files:
+  - E:\Git\Masters\F21RS\CW\gnatprove
+  label: Examine All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    console.ads:33:33: error: subtype mark required in this context
+
+    console.ads:53:28: error: subtype mark required in this context
+
+    console.ads:33:33: error: subtype mark required in this context
+
+    console.ads:53:28: error: subtype mark required in this context
+
+    console.ads:33:33: error: subtype mark required in this context
+
+    console.ads:53:28: error: subtype mark required in this context
+
+    console.ads:33:33: error: subtype mark required in this context
+
+    console.ads:53:28: error: subtype mark required in this context
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2023-10-14T13:44:26.281000'
+'2023-10-14T13:46:24.976000':
+  category: GNATprove
+  files:
+  - E:\Git\Masters\F21RS\CW\gnatprove
+  label: Examine All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    console.adb:2:14: error: missing body for "Indicator_Enabled" declared at console.ads:29
+
+    console.adb:2:14: error: missing body for "Auto_Mode_Enabled" declared at console.ads:49
+
+    console.ads:31:28: error: global item cannot reference parameter of subprogram
+    "Indicator_Enabled"
+
+    console.ads:33:33: error: subtype mark required in this context
+
+    console.ads:51:26: error: global item cannot reference parameter of subprogram
+    "Auto_Mode_Enabled"
+
+    console.ads:53:28: error: subtype mark required in this context
+
+    console.ads:31:28: error: global item cannot reference parameter of subprogram
+    "Indicator_Enabled"
+
+    console.ads:33:33: error: subtype mark required in this context
+
+    console.ads:51:26: error: global item cannot reference parameter of subprogram
+    "Auto_Mode_Enabled"
+
+    console.ads:53:28: error: subtype mark required in this context
+
+    log.adb:46:17: error: missing argument for parameter "IndicatorState" in call
+    to "Indicator_Enabled" declared at console.ads:29
+
+    log.adb:51:17: error: missing argument for parameter "AutoState" in call to "Auto_Mode_Enabled"
+    declared at console.ads:49
+
+    console.ads:31:28: error: global item cannot reference parameter of subprogram
+    "Indicator_Enabled"
+
+    console.ads:33:33: error: subtype mark required in this context
+
+    console.ads:51:26: error: global item cannot reference parameter of subprogram
+    "Auto_Mode_Enabled"
+
+    console.ads:53:28: error: subtype mark required in this context
+
+    adls.adb:9:17: error: missing argument for parameter "AutoState" in call to "AUTO_MODE_ENABLED"
+    declared at console.ads:49
+
+    adls.adb:23:37: error: missing argument for parameter "AutoState" in call to "AUTO_MODE_ENABLED"
+    declared at console.ads:49
+
+    adls.adb:30:33: error: missing argument for parameter "AutoState" in call to "AUTO_MODE_ENABLED"
+    declared at console.ads:49
+
+    adls.adb:37:17: error: missing argument for parameter "IndicatorState" in call
+    to "INDICATOR_ENABLED" declared at console.ads:29
+
+    console.ads:31:28: error: global item cannot reference parameter of subprogram
+    "Indicator_Enabled"
+
+    console.ads:33:33: error: subtype mark required in this context
+
+    console.ads:51:26: error: global item cannot reference parameter of subprogram
+    "Auto_Mode_Enabled"
+
+    console.ads:53:28: error: subtype mark required in this context
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2023-10-14T13:46:24.976000'
+'2023-10-14T13:57:02.710000':
+  category: GNATprove
+  files:
+  - E:\Git\Masters\F21RS\CW\gnatprove
+  label: Examine All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    console.ads:33:33: error: subtype mark required in this context
+
+    console.ads:53:28: error: subtype mark required in this context
+
+    console.ads:33:33: error: subtype mark required in this context
+
+    console.ads:53:28: error: subtype mark required in this context
+
+    console.ads:33:33: error: subtype mark required in this context
+
+    console.ads:53:28: error: subtype mark required in this context
+
+    console.ads:33:33: error: subtype mark required in this context
+
+    console.ads:53:28: error: subtype mark required in this context
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2023-10-14T13:57:02.710000'
+'2023-10-14T13:59:33.135000':
+  category: GNATprove
+  files:
+  - E:\Git\Masters\F21RS\CW\gnatprove
+  label: Examine All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    console.ads:33:15: error: attribute "Result" can only appear in postcondition
+    of function
+
+    console.ads:53:44: error: subtype mark required in this context
+
+    console.ads:33:15: error: attribute "Result" can only appear in postcondition
+    of function
+
+    console.ads:53:44: error: subtype mark required in this context
+
+    console.ads:33:15: error: attribute "Result" can only appear in postcondition
+    of function
+
+    console.ads:53:44: error: subtype mark required in this context
+
+    console.ads:33:15: error: attribute "Result" can only appear in postcondition
+    of function
+
+    console.ads:53:44: error: subtype mark required in this context
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2023-10-14T13:59:33.135000'
+'2023-10-14T13:59:57.132000':
+  category: GNATprove
+  files:
+  - E:\Git\Masters\F21RS\CW\gnatprove
+  label: Examine All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    console.ads:33:44: error: subtype mark required in this context
+
+    console.ads:53:44: error: subtype mark required in this context
+
+    console.ads:33:44: error: subtype mark required in this context
+
+    console.ads:53:44: error: subtype mark required in this context
+
+    console.ads:33:44: error: subtype mark required in this context
+
+    console.ads:53:44: error: subtype mark required in this context
+
+    console.ads:33:44: error: subtype mark required in this context
+
+    console.ads:53:44: error: subtype mark required in this context
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2023-10-14T13:59:57.132000'
+'2023-10-14T14:00:41.902000':
+  category: GNATprove
+  files:
+  - E:\Git\Masters\F21RS\CW\gnatprove
+  label: Examine All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: analysis of data and information flow ...
+
+    console.ads:20:32: warning: comparison with True is redundant [-gnatwr]
+
+    console.ads:26:31: warning: comparison with True is redundant [-gnatwr]
+
+    console.ads:39:27: warning: comparison with True is redundant [-gnatwr]
+
+    console.ads:45:26: warning: comparison with True is redundant [-gnatwr]
+
+    warning: no bodies have been analyzed by GNATprove
+
+    enable analysis of a non-generic body using SPARK_Mode
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2023-10-14T14:00:41.902000'
+'2023-10-14T14:01:10.351000':
+  category: GNATprove
+  files:
+  - E:\Git\Masters\F21RS\CW\gnatprove
+  label: Examine All
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    console.ads:20:17: error: attribute "Result" can only appear in postcondition
+    of function
+
+    console.ads:27:17: error: attribute "Result" can only appear in postcondition
+    of function
+
+    console.ads:39:17: error: attribute "Result" can only appear in postcondition
+    of function
+
+    console.ads:46:17: error: attribute "Result" can only appear in postcondition
+    of function
+
+    console.ads:20:17: error: attribute "Result" can only appear in postcondition
+    of function
+
+    console.ads:27:17: error: attribute "Result" can only appear in postcondition
+    of function
+
+    console.ads:39:17: error: attribute "Result" can only appear in postcondition
+    of function
+
+    console.ads:46:17: error: attribute "Result" can only appear in postcondition
+    of function
+
+    console.ads:20:17: error: attribute "Result" can only appear in postcondition
+    of function
+
+    console.ads:27:17: error: attribute "Result" can only appear in postcondition
+    of function
+
+    console.ads:39:17: error: attribute "Result" can only appear in postcondition
+    of function
+
+    console.ads:46:17: error: attribute "Result" can only appear in postcondition
+    of function
+
+    console.ads:20:17: error: attribute "Result" can only appear in postcondition
+    of function
+
+    console.ads:27:17: error: attribute "Result" can only appear in postcondition
+    of function
+
+    console.ads:39:17: error: attribute "Result" can only appear in postcondition
+    of function
+
+    console.ads:46:17: error: attribute "Result" can only appear in postcondition
+    of function
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2023-10-14T14:01:10.351000'
+'2023-10-14T14:01:39.066000':
+  category: GNATprove
+  files:
+  - E:\Git\Masters\F21RS\CW\gnatprove
   label: Examine All
   output: 'Phase 1 of 2: generation of Global contracts ...
 
@@ -13,20 +689,4 @@
 
     '
   output_parser: GNATprove_Parser
-  timestamp: '2023-10-13T15:05:52.099000'
-'2023-10-13T15:06:12.563000':
-  category: GNATprove
-  files:
-  - G:\Masters\F21RS\CW\gnatprove
-  label: Basic Prove All
-  output: 'Phase 1 of 2: generation of Global contracts ...
-
-    Phase 2 of 2: flow analysis and proof ...
-
-    warning: no bodies have been analyzed by GNATprove
-
-    enable analysis of a non-generic body using SPARK_Mode
-
-    '
-  output_parser: GNATprove_Parser
-  timestamp: '2023-10-13T15:06:12.563000'
+  timestamp: '2023-10-14T14:01:39.066000'

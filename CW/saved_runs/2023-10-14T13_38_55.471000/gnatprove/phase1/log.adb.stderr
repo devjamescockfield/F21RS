@@ -1,0 +1,8 @@
+log.adb:46:17: error: missing argument for parameter "State" in call to "Indicator_Enabled" declared at console.ads:29
+log.adb:51:17: error: missing argument for parameter "State" in call to "Auto_Mode_Enabled" declared at console.ads:49
+console.ads:29:38: error: subtype mark required in this context
+console.ads:29:38: error: found "IndicatorState" declared at line 12
+console.ads:31:28: error: global item cannot reference parameter of subprogram "Indicator_Enabled"
+console.ads:49:38: error: subtype mark required in this context
+console.ads:49:38: error: found "AutoState" declared at line 13
+console.ads:51:26: error: global item cannot reference parameter of subprogram "Auto_Mode_Enabled"

@@ -15,21 +15,21 @@ U console%b		console.adb		abd3d3be OO PK
 
 U console%s		console.ads		81373f29 EB OO PK
 
-D console.ads		20231011144256 81373f29 console%s
+D console.ads		20231014130136 81373f29 console%s
 D console.adb		20231012152548 2ae4ec97 console%b
 D system.ads		20210520051134 2ffa5114 system%s
 G a Z
 X 1 console.ads
 7K10*Console 45l5 45e12 2|2b14 40l5 40t12
-12b4*IndicatorState{boolean} 17r27 18r18 22r27 23r18 27r26 28r46 2|7m7 13m7
+12b4*IndicatorState{boolean} 17r29 18r20 22r29 23r20 27r28 28r48 2|7m7 13m7
 . 19r14
-13b4*AutoState{boolean} 32r27 33r18 37r27 38r18 42r26 43r46 2|25m7 31m7 37r14
+13b4*AutoState{boolean} 32r29 33r20 37r29 38r20 42r28 43r48 2|25m7 31m7 37r14
 15U14*Enable_Indicator 2|4b14 8l8 8t24
 20U14*Disable_Indicator 2|10b14 14l8 14t25
-25V13*Indicator_Enabled{boolean} 28r18 2|16b13 20l8 20t25
+25V13*Indicator_Enabled{boolean} 28r20 2|16b13 20l8 20t25
 30U14*Enable_Auto_Mode 2|22b14 26l8 26t24
 35U14*Disable_Auto_Mode 2|28b14 32l8 32t25
-40V13*Auto_Mode_Enabled{boolean} 43r18 2|34b13 38l8 38t25
+40V13*Auto_Mode_Enabled{boolean} 43r20 2|34b13 38l8 38t25
 
 QQ SPARKVERSION SPARK Community 2021 (20210519)
 GG EK_DIRECT_CALLS console__enable_indicator 0

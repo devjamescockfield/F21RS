@@ -1,0 +1,10 @@
+console.ads:12:28: error: "is" should be ":="
+console.ads:12:31: error: expected type "Standard.Boolean"
+console.ads:12:31: error: found a composite type
+console.ads:13:23: error: "is" should be ":="
+console.ads:13:26: error: expected type "Standard.Boolean"
+console.ads:13:26: error: found a composite type
+console.ads:33:33: error: prefix of "First" attribute must be a type
+console.ads:33:76: error: prefix of "Last" attribute must be a type
+console.ads:53:28: error: prefix of "First" attribute must be a type
+console.ads:53:61: error: prefix of "Last" attribute must be a type

@@ -1,0 +1,4 @@
+console.ads:20:17: error: attribute "Result" can only appear in postcondition of function
+console.ads:27:17: error: attribute "Result" can only appear in postcondition of function
+console.ads:39:17: error: attribute "Result" can only appear in postcondition of function
+console.ads:46:17: error: attribute "Result" can only appear in postcondition of function

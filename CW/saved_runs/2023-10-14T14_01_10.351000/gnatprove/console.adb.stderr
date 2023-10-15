@@ -1,0 +1,4 @@
+console.ads:20:32: warning: comparison with True is redundant [-gnatwr]
+console.ads:26:31: warning: comparison with True is redundant [-gnatwr]
+console.ads:39:27: warning: comparison with True is redundant [-gnatwr]
+console.ads:45:26: warning: comparison with True is redundant [-gnatwr]

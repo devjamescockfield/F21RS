@@ -65,7 +65,7 @@ D a-tiinau.adb		20210520051130 89004916 ada.text_io.integer_aux%b
 D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
 D a-tiinio.adb		20210520051130 b79731f4 ada.text_io.integer_io%b
 D adls.ads		20231012192322 f53ac78e adls%s
-D console.ads		20231011144256 81373f29 console%s
+D console.ads		20231014130136 81373f29 console%s
 D doors.ads		20231011144344 7c1d5e02 doors%s
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s

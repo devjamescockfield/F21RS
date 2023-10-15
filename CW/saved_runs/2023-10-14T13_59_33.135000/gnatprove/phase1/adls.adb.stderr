@@ -1,0 +1,2 @@
+console.ads:33:15: error: attribute "Result" can only appear in postcondition of function
+console.ads:53:44: error: subtype mark required in this context
